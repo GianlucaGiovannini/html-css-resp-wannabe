@@ -80,6 +80,174 @@ img {
     clear: both;
 }
 
+@media screen and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+    img {
+        height: 180px;
+    }
+    .row {
+        width: 95%;
+        margin: auto;
+    }
+    /* BLOCCO LEZIONI */
+    #lezioni {
+        display: flex;
+        background-color: #ffffff;
+        padding-top: 5px;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+    /* BLOCCO STEPS */
+    #steps {
+        padding-bottom: 20px;
+        margin-top: 10px;
+        background-color: lightgrey;
+    }
+    #steps img {
+        height: 140px;
+    }
+    #steps .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #steps .row>h1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #steps .row>.left,
+    #steps .row>.central {
+        width: calc(100% / 2 - 10px);
+        margin: 20px 0 10px;
+    }
+    #steps .row>.right {
+        width: 80%;
+        margin: 20px 0 10px;
+    }
+    /* BLOCCO PERCHE */
+    #why {
+        display: flex;
+        background-color: #ffffff;
+        padding-top: 10px;
+    }
+    #why .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #why .row>h1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #why .row>.first,
+    #why .row>.second {
+        width: calc(100% / 2 - 10px);
+        margin: 20px 0 10px;
+    }
+    #why .row>.third {
+        width: 80%;
+        margin: 20px 0 30px;
+    }
+    #why hr {
+        border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+    img {
+        height: 180px;
+    }
+    .row {
+        width: 95%;
+        margin: auto;
+    }
+    /* BLOCCO LEZIONI */
+    #lezioni {
+        display: flex;
+        background-color: #ffffff;
+        padding-top: 5px;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+    /* BLOCCO STEPS */
+    #steps {
+        padding-bottom: 20px;
+        margin-top: 10px;
+        background-color: lightgrey;
+    }
+    #steps img {
+        height: 140px;
+    }
+    #steps .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #steps .row>h1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #steps .row>.left,
+    #steps .row>.central {
+        width: calc(100% / 2 - 10px);
+        margin: 20px 0 10px;
+    }
+    #steps .row>.right {
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+    /* BLOCCO PERCHE */
+    #why {
+        display: flex;
+        background-color: #ffffff;
+        padding-top: 10px;
+    }
+    #why h1 {
+        margin-top: 20px;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+    #why hr {
+        border-color: #808080;
+    }
+}
+
 @media screen and (max-width: 420px) {
     * {
         margin: 0;
@@ -103,7 +271,7 @@ img {
     /* BLOCCO LEZIONI */
     #lezioni {
         display: flex;
-        min-width: 300px;
+        min-width: 320px;
         background-color: #f2f2cd;
         padding-top: 5px;
     }
@@ -116,6 +284,7 @@ img {
     #steps {
         display: flex;
         margin-top: 10px;
+        min-width: 320px;
         background-color: #ffffff;
     }
     #steps .row>.left,
@@ -127,6 +296,7 @@ img {
     /* BLOCCO PERCHE */
     #why {
         display: flex;
+        min-width: 320px;
         background-color: #f2f2cd;
         padding-top: 10px;
     }
